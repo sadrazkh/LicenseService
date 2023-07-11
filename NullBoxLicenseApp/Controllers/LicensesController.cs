@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace LicenseService.Controllers;
+namespace NullBoxLicenseApp.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
@@ -19,7 +19,7 @@ public class licenseController : ControllerBase
                 Message = "ناموفق",
                 Data = false,
             };
-            
+
         }
         else
         {
